@@ -1,5 +1,4 @@
 import pyvisa
-import time
 
 class keysight_33600a():
 
