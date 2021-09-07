@@ -3,7 +3,6 @@
 from __future__ import print_function
 import pyvisa
 from keysight_33600a import keysight_33600a
-import time
 
 rm = pyvisa.ResourceManager('@py')
 k33611a = rm.open_resource('USB0::2391::18439::MY59000716::0::INSTR')
