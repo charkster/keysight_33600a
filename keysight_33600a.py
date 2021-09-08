@@ -87,7 +87,7 @@ class keysight_33600a():
 	                  "SOURce1:FUNCtion:PRBS:BRATe{0}"               : "<bit_rate>|MINimum|MAXimum|DEFault",
 	                  "SOURce1:FUNCtion:PRBS:DATA{0}"                : "PN3 through PN32",
 	                  "SOURce1:FUNCtion:PRBS:TRANsition:BOTH{0}"     : "<seconds>|MINimum|MAXimum|DEFault",
-	                  "SOURce1:FUNCtion:PULSe:DCYCle{0}"             : "<percent>|MINimum|MAXimum|DEFault",
+#	                  "SOURce1:FUNCtion:PULSe:DCYCle{0}"             : "<percent>|MINimum|MAXimum|DEFault",
 	                  "SOURce1:FUNCtion:PULSe:HOLD{0}"               : "WIDTh|DCYCle",
 	                  "SOURce1:FUNCtion:PULSe:PERiod{0}"             : "<seconds>|MINimum|MAXimum|DEFault",
 	                  "SOURce1:FUNCtion:PULSe:TRANsition:LEADing{0}" : "<seconds>|MINimum|MAXimum|DEFault",
