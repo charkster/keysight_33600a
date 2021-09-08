@@ -161,7 +161,16 @@ class keysight_33600a():
 	                  "SOURce1:VOLTage:LIMit:STATe{0}"               : "ON|1|OFF|0",
 	                  "SOURce1:VOLTage:OFFSet{0}"                    : "<offset>|MINimum|MAXimum|DEFault",
 	                  "SOURce1:VOLTage:RANGe:AUTO{0}"                : "OFF|0|ON|1|ONCE",
-	                  "SOURce1:VOLTage:UNIT{0}"                      : "VPP|VRMS|DBM" }
+	                  "SOURce1:VOLTage:UNIT{0}"                      : "VPP|VRMS|DBM" 
+	                  "OUTPut1:LOAD{0}": "<ohms>|INFinity|MINimum|MAXimum|DEFault",
+                          "OUTPUT1:MODE{0}": "NORMal|GATed",
+                          "OUTPut1:POLarity{0}": "NORMal|INVerted",
+                          "OUTPut:SYNC{0}": "ON | 1 | OFF | 0",
+                          "OUTPut1:SYNC:MODE{0}": "NORMal|CARRier|MARKer",
+                          "OUTPut1:SYNC:POLarity{0}": "NORMal|INVerted",
+                          "OUTPut:TRIGger{0}": "ON|1|OFF|0",
+                          "OUTPut:TRIGger:SLOPe{0}": "POSitive|NEGative",
+                          "OUTPut{0}": "ON|1|OFF|0" }
 
 	settings_por_scpi_list = [ 'SOURce1:AM:STATe 0',
 	                           'OUTPut1:SYNC:POLarity NORM',
@@ -280,4 +289,13 @@ class keysight_33600a():
 	                           'SOURce1:PM:DEViation +1.800000000000000E+02',
 	                           'SOURce1:FUNCtion:ARBitrary:FILTer STEP',
 	                           'SOURce1:PWM:DEViation +1.000000000000000E-05',
-	                           'SOURce1:PM:INTernal:FUNCtion SIN' ]
+	                           'SOURce1:PM:INTernal:FUNCtion SIN' 
+				   'OUTPut1:LOAD +5.000000000000000E+01',
+                                   'OUTPut1:MODE NORM',
+                                   'OUTPut1:POLarity NORM',
+                                   'OUTPut:SYNC 1',
+                                   'OUTPut1:SYNC:MODE NORM',
+                                   'OUTPut1:SYNC:POLarity NORM',
+                                   'OUTPut:TRIGger 0',
+                                   'OUTPut:TRIGger:SLOPe POS',
+                                   'OUTPut 0' ]
