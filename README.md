@@ -1,4 +1,6 @@
 # keysight_33600a
+![picture](https://www.altoo.dk/cosmoshop/default/pix//a/g/33622A.4.jpg)
+
 Python class to control Keysight 33600a function generator instrument.
 
 This python class implements a method called get_unique_scpi() which returns a list of scpi commands that are different to the *RST state of the instrument.
